@@ -1,6 +1,6 @@
 import Author from '../author/Author';
 import './Book.css';
-import { NavLink, Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Book({
   book: {
