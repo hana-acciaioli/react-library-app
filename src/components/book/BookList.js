@@ -1,6 +1,6 @@
 import Book from '../../components/book/Book';
 import { useBooks } from '../../hooks/useBooks';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function BookList() {
   const { error, loading, books } = useBooks();
